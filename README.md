@@ -1,4 +1,8 @@
 # Odin Projects
 
 This is a collection of work related to The
-Odin Project.
+Odin Project. Look below to see projects:
+
+[Recipes Project](odin-recipes/index.html)
+
+
