@@ -60,7 +60,7 @@ p{
 
 @media (max-width: 767px) {
     .flex-container {
-        flex-direction: column;
+        flex-direction: row;
         padding: 0;
     }
 
