@@ -1,0 +1,43 @@
+/* text css */
+*{
+    border: 1px solid red;
+}
+*/
+
+h1{
+    font-size: 24px;
+    font-style: #F9FAF8 ;
+}
+
+p1{
+    font-size: 18px;
+    font-style: #F9FAF8;
+}
+
+/*  sections css */
+.sections{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+/* header css */
+#header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-text{
+    margin: 0 8px 0 8px;
+}
+
+/* section 1 css/
