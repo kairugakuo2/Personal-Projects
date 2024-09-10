@@ -5,4 +5,4 @@ Odin Project. Look below to see projects:
 
 [Recipes Project](odin-recipes/index.html)
 
-
+[Landing Page](landing-page/index.html)
