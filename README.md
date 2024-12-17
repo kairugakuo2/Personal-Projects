@@ -1,4 +1,4 @@
-# Projects
+# Web Projects
 
 This is a collection of my work! Look below to see projects:
 
