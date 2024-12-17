@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css"></link>
+
+    </head>
+
+    <body>
+        <div class="calculator">
+            <!-- Display Screen --->
+            <div class="screen">
+                <div class="previousScreen">0</div>
+                <div class="currentScreen">0</div>
+            </div>
+
+            <!--  button to access scientific functions --->
+            <button id ="toggle-scientific">Scientific</button>
+
+            <!-- scientific buttons --->
+            <div class="scientific-buttons hidden">
+                <button class="scientific" data-func="sin">sin</button>
+                <button class="scientific" data-func="cos">cos</button>
+                <button class="scientific" data-func="tan">tan</button>
+                <button class="scientific" data-func="sqrt">√</button>
+                <button class="scientific" data-func="pow">x<sup>y</sup></button>
+                <button class="scientific" data-func="ln">ln</button>
+                <button class="scientific" data-func="log">log</button>
+                <button class="scientific" data-func="factorial">n!</button>
+                <button class="scientific" data-func="pi">π</button>
+                <button class="scientific" data-func="e">e</button>
+                <button class="scientific" data-func="cbrt">∛</button>
+                <button class="scientific" data-func="tenPow">10<sup>x</sup></button>
+
+            </div>
+
+            <!-- standard buttons --->
+            <div class="button-grid">
+                <div class="btn-group">
+                    <button class="longBtn" id="clear">CLEAR</button>
+                    <button class="longBtn" id="delete">DELETE</button>
+                    <button class="shortBtn number">7</button>
+                    <button class="shortBtn number">8</button>
+                    <button class="shortBtn number">9</button>
+                    <button class="shortBtn operator">÷</button>
+                    <button class="shortBtn number">4</button>
+                    <button class="shortBtn number">5</button>
+                    <button class="shortBtn number">6</button>
+                    <button class="shortBtn operator">x</button>
+                    <button class="shortBtn number">1</button>
+                    <button class="shortBtn number">2</button>
+                    <button class="shortBtn number">3</button>
+                    <button class="shortBtn operator">-</button>
+                    <button class="shortBtn decimal">.</button>
+                    <button class="shortBtn number">0</button>
+                    <button class="shortBtn equals">=</button>
+                    <button class="shortBtn operator">+</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
